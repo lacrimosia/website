@@ -1,10 +1,16 @@
 <div>
 <div class="modalBox animated fadeIn">
-	<button class="btn btn-primary pull-right" type="button" ng-click="ok()" uib-tooltip="Close" tooltip-placement="left"><i class="fa fa-times"></i></button>
+	<button class="btn btn-primary pull-right closeButton" type="button" ng-click="ok()" uib-tooltip="Close" tooltip-placement="left"><i class="fa fa-times fa-2x"></i></button>
 		<h1> {{title}} </h1>
-		<!--<img ng-src="img/{{myFullImage}}" class="img-responsive center-block"/>-->
-		<small>{{fullpic}}</small><p></p>
-			<p>{{description}}</p>
-			<div class="modal-footer" ng-if="href!=''"><p><a role="button" class="btn btn-primary btn-md pull-right" ng-href="{{href}}" target="_blank"><i class="fa fa-thumb-tack"></i> View Demo</a></p></div>	
+		<img ng-src="images/full/{{fullpic}}" class="img-responsive center-block"/>
+			<!--<p>{{description}}</p>-->
+<div class="modal-footer" ng-if="link!=''">
+   <div class="btn-group" role="group" aria-label="...">
+		<a role="button" class="btn btn-primary btn-md pull-right" ng-href="{{link}}" target="_blank"><i class="fa fa-external-link "></i> Visit Site</a>
+		<a role="button" class="btn btn-primary btn-md pull-right" ng-href="{{link}}" target="_blank"><i class="fa fa-download"></i> View Source</a>
+    </div>
+</div>	
+
+
 </div>
 </div>

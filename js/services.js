@@ -1,7 +1,7 @@
 // Modal Service for all the popups
 app.factory('modalService', ['$uibModal', function($uibModal){
   	return {
-      openMenuModal: function(templateUrl,title, fullpic, description) {
+      openMenuModal: function(templateUrl,title, fullpic, description, link) {
         var modalObj = $uibModal.open({
           templateUrl: templateUrl,
           backdrop: 'static',
@@ -11,6 +11,7 @@ app.factory('modalService', ['$uibModal', function($uibModal){
             $scope.title = title;
             $scope.fullpic = fullpic;
             $scope.description = description;
+            $scope.link = link;
 
             $scope.ok = function(){
               //Process Close Button Click
