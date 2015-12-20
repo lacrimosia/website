@@ -1,0 +1,181 @@
+/* Main css styles */
+
+/* gray - #161616 
+   gold - #C6892B
+   bronze- #663F07
+*/
+
+body{
+	background: #161616 !important;
+	font-size: 13px !important;
+}
+
+a{
+	color: #C6892B !important;
+	text-decoration: none !important;
+	transition: 0.7s ease-in-out;
+}
+
+p{
+    color: #663F07 !important;
+    font-size: 18px !important;
+}
+
+p i{
+	color: #C6892B !important;
+}
+
+a:hover{
+	color: #663F07 !important;
+	text-decoration: underline !important;
+}
+
+.footerIcon{
+color: #C6892B !important;
+  text-decoration: none !important;
+  transition: 0.7s ease-in-out;
+}
+
+.footerIcon:hover{
+  color: #663F07 !important;
+}
+
+.navbar-brand
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    max-height: 100% !important;
+}
+
+.bronze{
+  color: #663F07 !important;
+}
+
+.navbar{
+	background: #161616 !important;
+	border: none !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+
+ .navbar, .navbar div, .navbar-brand, .navbar-header {
+     min-height: 90px;
+     max-height: 90px;
+     height: 90px;
+     font-size: 16px !important;
+  }  
+
+  .gray{
+  	color: #161616 !important;
+  }
+
+  .navbar-nav{
+  	margin: 20px -15px !important;
+  	transition: 0.7s ease-in-out;
+  }
+
+  .navbar-nav a{
+  	font-family: 'Raleway', sans-serif !important;
+  }
+
+  .jumbotron{
+  	background: inherit !important;
+  	height: inherit !important;
+  }
+
+  h1{
+  	color: #C6892B !important;
+  }
+
+  h3{
+  	color: #C6892B !important;
+  	font-size: 2.7em !important;
+  	font-family: 'Raleway', sans-serif !important;
+  }
+
+  .dev{
+  	color: #C6892B !important;
+  	font-size: 5em !important;
+  	/*font-family: 'Alex Brush', cursive !important;*/
+    font-family: 'Raleway', sans-serif !important;
+  }
+
+  .textmain{
+    margin-top: 130px !important;
+  }
+
+  .gold{
+    color: #C6892B !important;
+  }
+
+  .btn-primary:focus{
+    background: #C6892B !important;
+    border: 2px solid #C6892B !important;
+    color: #161616 !important;
+    transition: 0.3s ease-in-out;
+    outline: none !important;
+  }
+
+  .btn-primary{
+  	border: 2px solid #C6892B !important;
+  	background: #161616 !important;
+  	color: #C6892B !important;
+  	transition: 0.7s ease-in-out;
+  }
+
+  .btn-primary:hover{
+  	border: 2px solid #C6892B !important;
+  	background: #C6892B !important;
+  	color: #161616 !important;
+  }
+
+  .workArea{
+  	background: #161616 !important;
+  	width: 100% !important;
+    min-height: 600px !important;
+  	height: auto !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .filterArea{
+    margin: 60px 0px 30px 0px !important;
+  }
+
+.mainArea{
+  	/*background: #161616 !important;*/
+    background: url('../images/bg.jpg') no-repeat center center !important;
+  	width: 100% !important;
+  	min-height: 500px !important;
+    background-size: cover !important;
+    height: auto !important;
+  }
+
+.footerArea{
+  	background: #161616 !important;
+  	width: 100% !important;
+  	height: 100px !important;
+  }
+
+  .navBack{
+    background: #161616 !important;
+    width: 100% !important;
+    height: 100px !important;
+  }
+
+.thumbs{
+  height: 100%;
+  /*border: 3px solid #C6892B !important;*/
+}
+
+.footerList{
+  padding-top: 75px !important;
+  background: #161616 !important;
+}

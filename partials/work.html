@@ -1,0 +1,25 @@
+<div class="col-md-12">
+	<div class="text-center">
+		<h1 class="gold"><strong>Portfolio</strong></h1>
+	</div>
+	<p class="bronze text-center">Web Apps, Graphic Design, and Print Design</p>
+</div>
+
+
+<div class="col-md-12 filterArea">
+  <div class="text-center">
+	<div class="btn-group" role="group" aria-label="...">
+		<button type="button" class="btn btn-primary btn-lg" ng-click="type = 'all';"><i class="fa fa-list"></i> Everything</button>
+  		<button type="button" class="btn btn-primary btn-lg" ng-click="type = 'web';"><i class="fa fa-code"></i> Web Applications</button>
+  		<button type="button" class="btn btn-primary btn-lg" ng-click="type = 'print';"><i class="fa fa-paper-plane"></i> Print Design</button>
+  		<button type="button" class="btn btn-primary btn-lg" ng-click="type = 'graphic';"><i class="fa fa-desktop"></i> Graphic Design</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-3" ng-repeat="image in pics" ng-if="image.type == type || type=='all';" ng-style="{'margin': '5px 0px 5px 0px'}">
+   <div>
+		<img src="images/{{image.imageFile}}" class="img-responsive thumbs animated fadeIn" ng-click="getDataFromPictures('partials/ImageSize.html',image.name, imageFile, image.type)"/>
+		<h4 class="text-center gold animated fadeIn">{{image.name}}</h4><br/>
+   </div>
+</div>
