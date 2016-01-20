@@ -1,7 +1,7 @@
 // Modal Service for all the popups
 app.factory('modalService', ['$uibModal', function($uibModal){
   	return {
-      openMenuModal: function(templateUrl,title, fullpic, description, link) {
+      openMenuModal: function(templateUrl,title, fullpic, description, link, download, tech) {
         var modalObj = $uibModal.open({
           templateUrl: templateUrl,
           backdrop: 'static',
@@ -12,10 +12,12 @@ app.factory('modalService', ['$uibModal', function($uibModal){
             $scope.fullpic = fullpic;
             $scope.description = description;
             $scope.link = link;
+            $scope.download = download;
+            $scope.tech = tech;
 
             $scope.ok = function(){
               //Process Close Button Click
-              $modalInstance.close(); 
+              $modalInstance.close();
             }
             $scope.cancel = function(){
               $modalInstance.dismiss('cancel');
@@ -29,9 +31,9 @@ app.factory('modalService', ['$uibModal', function($uibModal){
                 return;
               }else{
                $scope.title = $scope.Items.name;
-                $scope.description = $scope.Items.description;  
+                $scope.description = $scope.Items.description;
                 $scope.thumb = $scope.Items.image;
-              }            
+              }
             };*/
 
             // go to Previous selection on click
@@ -42,9 +44,9 @@ app.factory('modalService', ['$uibModal', function($uibModal){
                 return;
               }else{
                $scope.title = $scope.Items.name;
-                $scope.description = $scope.Items.description;  
+                $scope.description = $scope.Items.description;
                 $scope.thumb = $scope.Items.image;
-              }            
+              }
             };*/
 
           },

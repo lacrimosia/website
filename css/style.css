@@ -1,6 +1,6 @@
 /* Main css styles */
 
-/* gray - #161616 
+/* gray - #161616
    gold - #C6892B
    bronze- #663F07
 */
@@ -70,7 +70,7 @@ color: #C6892B !important;
      max-height: 90px;
      height: 90px;
      font-size: 16px !important;
-  }  
+  }
 
   .gray{
   	color: #161616 !important;
@@ -162,6 +162,16 @@ color: #C6892B !important;
 
 .modal-footer{
   border-top: none !important;
+}
+
+.footerButtons{
+	margin-top: 10% !important;
+}
+
+.logos{
+	width: 15%;
+	display: inline;
+	margin-right: 10px !important;
 }
 
 .mainArea{

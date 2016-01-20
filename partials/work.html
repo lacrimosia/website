@@ -19,7 +19,7 @@
 
 <div class="col-md-3" ng-repeat="image in pics" ng-if="image.type == type || type=='all';" ng-style="{'margin': '15px 0px 15px 0px'}">
    <div>
-		<img src="images/{{image.imageFile}}" class="img-responsive thumbs animated fadeIn" ng-click="getDataFromPictures('partials/ImageSize.html',image.name, image.fullpic, image.type, image.link)"/>
+		<img src="images/{{image.imageFile}}" class="img-responsive thumbs animated fadeIn" ng-click="getDataFromPictures('partials/ImageSize.html',image.name, image.fullpic, image.description, image.link, image.download, image.tech)"/>
 		<!--<h4 class="text-center gold animated fadeIn">{{image.name}}</h4><br/>-->
    </div>
 </div>
