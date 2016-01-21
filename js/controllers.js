@@ -62,7 +62,7 @@ app.controller('Pictures', ['$scope', '$uibModal','modalService', function($scop
 			"type": "web",
 			"fullpic": "map.jpg",
 			"description": "information here",
-			"link": "http://courses.online.unlv.edu/courses/ENG231_RSabbath/#/",
+			"link": "http://guides.library.unlv.edu/eng231",
 			"tech": [
 				{
 					"name": "HTML5",
