@@ -129,8 +129,8 @@ app.controller('Pictures', ['$scope', '$uibModal','modalService', function($scop
 					"image": "javascript.png"
 				},
 				{
-					"name": "Angular",
-					"image": "angular.png"
+					"name": "jQuery",
+					"image": "jquery.png"
 				}
 			]
 		},
@@ -164,7 +164,7 @@ app.controller('Pictures', ['$scope', '$uibModal','modalService', function($scop
 			"name": "Heart Ideal Foods Logo",
 			"imageFile": "logo1.jpg",
 			"type": "graphic",
-			"fullpic": "placeholder.jpg",
+			"fullpic": "heart_logo.jpg",
 			"description": "information here",
 			"link": "",
 			"tech": [
@@ -178,7 +178,7 @@ app.controller('Pictures', ['$scope', '$uibModal','modalService', function($scop
 			"name": "LavaSource Tech Logo",
 			"imageFile": "lavasource.jpg",
 			"type": "graphic",
-			"fullpic": "placeholder.jpg",
+			"fullpic": "lavasource.jpg",
 			"description": "information here",
 			"link": "",
 			"tech": [
@@ -192,7 +192,7 @@ app.controller('Pictures', ['$scope', '$uibModal','modalService', function($scop
 			"name": "Craig's Burgers Logo",
 			"imageFile": "craigs.jpg",
 			"type": "graphic",
-			"fullpic": "placeholder.jpg",
+			"fullpic": "craigs.jpg",
 			"description": "information here",
 			"link": "",
 			"tech": [
