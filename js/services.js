@@ -7,6 +7,7 @@ app.factory('modalService', ['$uibModal', function($uibModal){
           backdrop: 'static',
           keyboard: true,
           size: 'lg',
+          windowClass: 'modal-window',
           controller: function($scope, $modalInstance){
             $scope.title = title;
             $scope.fullpic = fullpic;

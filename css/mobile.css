@@ -1,0 +1,15 @@
+/* mobile styles */
+
+/* Ipads and mini laptops */
+@media screen and (max-width:960px) {
+  .thumbs{
+    width: 50%;
+  }
+}
+
+/* Mobile devices and tablets*/
+@media screen and (max-width:640px) {
+  .thumbs{
+    width: 100%;
+  }
+}

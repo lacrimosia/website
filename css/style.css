@@ -56,7 +56,7 @@ color: #C6892B !important;
 }
 
 .navbar{
-	background: #161616 !important;
+	background: #ffffff !important;
 	border: none !important;
 	-moz-border-radius: 0 !important;
 	-ms-border-radius: 0 !important;
@@ -137,7 +137,7 @@ color: #C6892B !important;
   }
 
   .workArea{
-  	background: #161616 !important;
+  	background: #ffffff !important;
   	width: 100% !important;
     min-height: 600px !important;
   	height: auto !important;
@@ -146,8 +146,12 @@ color: #C6892B !important;
   }
 
   .filterArea{
-    margin: 60px 0px 30px 0px !important;
+    /*margin: 60px 0px 30px 0px !important;*/
   }
+
+.fa-inverse{
+	color: #161616 !important;
+}
 
 .modal-backdrop
 {
@@ -158,6 +162,14 @@ color: #C6892B !important;
 .modalBox, .modal-content{
   background: #161616 !important;
   padding: 10px !important;
+	height: 100% !important;
+}
+
+.modal-window, .modal-dialog {
+width: 100% !important;
+height: 100% !important;
+margin-top: 0px !important;
+overflow-y: hidden !important;
 }
 
 .modal-footer{
@@ -197,7 +209,9 @@ color: #C6892B !important;
   }
 
 .thumbs{
-  height: 100%;
+	width: 25%;
+	height: 100%;
+	float: left;
   cursor: pointer !important;
   /*border: 3px solid #C6892B !important;*/
 }
