@@ -1,17 +1,36 @@
 /* Main css styles */
 
-/* gray - #161616
-   gold - #C6892B
-   bronze- #663F07
+/* gray - #55474a
+   pink - #ef3b5d
+   light gray- #827579
 */
 
 body{
-	background: #161616 !important;
+	background: #191516 !important;
 	font-size: 13px !important;
 }
 
+.container-fluid, .no-margins{
+	padding: 0px !important;
+}
+
+.column2{
+	padding: 0px !important;
+}
+
+.Boxy{
+	background: blue;
+	z-index: 50;
+}
+
+.imageBox{
+	position: relative;
+	z-index: 40;
+	top: 0px;
+}
+
 a{
-	color: #C6892B !important;
+	color: #55474a !important;
 	text-decoration: none !important;
 	transition: 0.7s ease-in-out;
 }
@@ -116,25 +135,38 @@ color: #C6892B !important;
   }
 
   .btn-primary:focus{
-    background: #C6892B !important;
-    border: 2px solid #C6892B !important;
-    color: #161616 !important;
+    background: #55474a !important;
+    color: #ef3b5d !important;
     transition: 0.3s ease-in-out;
     outline: none !important;
   }
 
   .btn-primary{
-  	border: 2px solid #C6892B !important;
-  	background: #161616 !important;
-  	color: #C6892B !important;
+		width: 100% !important;
+		border-radius: 0px !important;
+		border: none !important;
+		padding: 20px 15px !important;
+  	color: #000 !important;
   	transition: 0.7s ease-in-out;
+		font-size: 1.5em !important;
   }
 
   .btn-primary:hover{
-  	border: 2px solid #C6892B !important;
-  	background: #C6892B !important;
-  	color: #161616 !important;
+  	background: #55474a  !important;
+  	color: #ef3b5d !important;
   }
+
+	.pink{
+		background: #d61e48 !important;
+	}
+
+	.pink2{
+		background: #e2536c !important;
+	}
+
+	.pink3{
+		background: #f27c99 !important;
+	}
 
   .workArea{
   	background: #ffffff !important;
@@ -209,7 +241,7 @@ overflow-y: hidden !important;*/
   }
 
 .thumbs{
-	width: 25%;
+	width: 50%;
 	height: 100%;
 	float: left;
   cursor: pointer !important;

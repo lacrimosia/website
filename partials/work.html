@@ -27,7 +27,13 @@
   </div>
 </div> -->
 
-<div class="col-md-12"  ng-if="image.type == type || type=='all';">
-		<img src="images/{{image.imageFile}}" ng-repeat="image in pics" class="thumbs animated fadeIn center-block" ng-click="getDataFromPictures('partials/ImageSize.html',image.name, image.fullpic, image.description, image.link, image.download, image.tech)"/>
+<div class="col-md-12 column2"  ng-if="image.type == type || type=='all';">
+	<div class="theBoxes" ng-repeat="image in pics" class="animated fadeIn center-block">
+		<div class="imageBox">
+			<img src="images/{{image.imageFile}}" class="thumbs"  ng-click="getDataFromPictures('partials/ImageSize.html',image.name, image.fullpic, image.description, image.link, image.download, image.tech)"/>
+		</div>
+		<div class="Boxy"></div>
+	</div>
+
 		<!--<h4 class="text-center gold animated fadeIn">{{image.name}}</h4><br/>-->
 </div>
